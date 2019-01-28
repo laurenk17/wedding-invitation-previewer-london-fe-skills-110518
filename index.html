@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link src="index.js">
+  <title>Wedding Invitation</title>
+</head>
+<body>
+<h1>Wedding Invitation Designer</h1>
+<div id="formDesigner">
+  
+  <button><p>Formal</p></button>
+  <button><p>Spring</p></button>
+  <button><p>Autumn</p></button><br><br>
+  
+<form>
+  <label for="firstname">Full Name:</label>
+  <br><input type="text" id= "firstname" required>
+  <br><br><label for="secondname" >Second Name:</label>
+  <br><input type="text" id="secondname" required>
+  <br><br><label for="lastname">Last Name:</label>
+  <br><input type="text" id="lastname" required>
+  <br><br><label for="date">Date:</label>
+  <br><input type="date" id="date" required>
+  <br><br><label for ="location">Wedding Location:</label>
+  <br><input id="location" type="text">
+</form>
+</div>
+<div id="design" class="wedding-design_formal">
+  <p id="outputFirstName"></p>
+  <p id="outputSecondName"></p>
+  <p id="outputLastName"></p>
+  <p id="outputDate"></p>
+  <p id="outputLocation"></p>
+</div>
+</body>

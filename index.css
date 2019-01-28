@@ -1,0 +1,37 @@
+html, body {
+  background-color:white;
+  font-family:Courier;
+  font-size:100%;
+  align-content:center;
+  display:inline-block;
+}
+
+button {
+  font-size:100%;
+  font-family:courier;
+  background-color:white;
+  color:black;
+  margin: 0;
+  padding: 60;
+  overflow: hidden;
+  
+}
+h1{
+  column-span: all;
+}
+#formDesigner{
+  width:50%;
+  margin:50px;
+}
+#design {
+  width:50%;
+  height:100%;
+  border-color:black;
+}
+
+#formDesigner {
+  border:50px;
+  border-color:navy;
+  border:1px;
+  
+}
